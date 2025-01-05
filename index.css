@@ -136,6 +136,7 @@ iframe {
 	overflow: hidden;
 	max-width: 100%;
 	background-color: #000;
+	cursor: pointer; /* Shows a hand cursor to indicate the video is clickable */
 }
 .video-wrapper iframe {
 	position: absolute;
