@@ -1,74 +1,81 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>John Rendel Barreda</title>
-	</head>
-
-	<base href="https://johnbbarreda.github.io/myportfol.io/">
-
-	<!-- favicon -->
-	<link rel="icon" type="img/png" href="./images/rune-stone.png">
-
-	<!-- Google Fonts -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Runic&family=Skranji:wght@400;700&display=swap" rel="stylesheet">
-
-	<!-- Bootstrap 5.0.2-->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-	<!-- CSS -->
-	<link rel="stylesheet" type="text/css" href="./index.css">
-
-	<body>
-		<img id="img-background" src="./images/bg-ragnar.jpeg" class="img-fluid">
-		<!-- Navbar -->
-		<nav class="navbar bg-light navbar-expand-lg navbar-light sticky-top p-0">
-	        <a href="#landing" class="navbar-brand d-lg-none">John</a>
-	        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#portfolio-nav" aria-controls="portfolio-nav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-	        </button>
-		        <div id="portfolio-nav" class="collapse navbar-collapse justify-content-lg-center sticky-top" >
-		            <ul class="navbar-nav ml-auto text-md-left">
-		                <li class="nav-item">
-		                    <a href="#landing" class="nav-link">Home</a>
-		                </li>
-		                <li class="nav-item">
-		                    <a href="#projects" class="nav-link">Projects</a>
-		                </li>
-		            </ul>	            
-		            <a href="#landing" class="navbar-brand mx-1 d-none d-lg-inline">
-		            	<img src="./images/rune1.png" class="navbar-toggler-icon ms-3" id="viking-ship-flip">
-		            	JOHN
-		            	<img src="./images/rune1.png" class="navbar-toggler-icon me-3">
-		            </a>		            
-		            <ul class="navbar-nav mr-auto text-md-left">
-		                <li class="nav-item">
-		                    <a href="#tools" class="nav-link">Tools</a>
-		                </li>
-		                <li class="nav-item">
-		                    <a href="#contact" class="nav-link">Contact</a>
-		                </li>
-		            </ul>
-		        </div>
-	    </nav>
-		<!-- End of Navbar -->
-
-
-		<!-- Content -->
-		<div class="container-fluid">
-
-			<!-- Landing -->
-            <div id="landing" class="row text-light justify-content-center align-items-center py-3 py-lg-5" >
-            	<h1 class="mt-2 text-center text-md-left">John Rendel Barreda</h1>
-                <h3 class="mt-3 text-center text-md-left">Full Stack Web Developer</h3>
-                <div class="col-10 col-md-4 py-lg-5">
-                    <img id="mypic" src="./images/johnpic_nobg.png" class="border bg-dark img-fluid px-4">
-                </div>
-                <div class="col-8 col-md-6 col-lg-5">
-                    <p id="poem" class="text-justify">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Rendel Barreda | Full Stack Web Developer</title>
+    
+    <!-- Base URL -->
+    <base href="https://johnbbarreda.github.io/myportfol.io/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./images/rune-stone.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Runic&family=Skranji:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap 5.0.2 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <!-- Background Image -->
+    <img id="img-background" src="./images/bg-ragnar.jpeg" alt="Background Image" class="img-fluid">
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top p-0">
+        <div class="container-fluid">
+            <a href="#landing" class="navbar-brand d-lg-none">John</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#portfolio-nav"
+                    aria-controls="portfolio-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="portfolio-nav" class="collapse navbar-collapse justify-content-center">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#landing" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                </ul>
+                <a href="#landing" class="navbar-brand mx-2 d-none d-lg-flex align-items-center">
+                    <img src="./images/rune1.png" alt="Rune Icon" class="navbar-icon me-2" id="viking-ship-flip">
+                    JOHN
+                    <img src="./images/rune1.png" alt="Rune Icon" class="navbar-icon ms-2">
+                </a>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#tools" class="nav-link">Tools</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End of Navbar -->
+    
+    <!-- Main Content -->
+    <div class="container-fluid">
+        <!-- Landing Section -->
+        <section id="landing" class="row text-light justify-content-center align-items-center py-3 py-lg-5">
+            <div class="col-12 text-center">
+                <h1 class="mt-2">John Rendel Barreda</h1>
+                <h3 class="mt-3">Full Stack Web Developer</h3>
+            </div>
+            <div class="col-10 col-md-4 py-lg-5">
+                <img id="mypic" src="./images/johnpic_nobg.png" alt="John Rendel Barreda" class="border bg-dark img-fluid px-4">
+            </div>
+            <div class="col-12 col-md-6 col-lg-5">
+                <p id="poem" class="text-justify">
 In this modern age, we roam vast seas,
 Navigating currents of knowledge with ease.
 With compass in hand, we chart our course,
@@ -80,250 +87,267 @@ For in knowing where to unearth what is right,
 We illuminate paths, transforming dark into light.
 
 -<em><strong>ChatGPT</strong>, magically transforming a brilliant one-line Reddit answer into poetry at the snap of my fingers.</em>
-                    </p>
+                </p>
+            </div>
+        </section>
+        <!-- End of Landing -->
+        
+        <!-- Projects Section -->
+        <section id="projects" class="py-5">
+            <div class="d-flex align-items-center justify-content-center mb-4">
+                <h1 class="text-center">My Projects</h1>
+                <img src="./images/anvil.png" alt="Anvil Icon" class="navbar-icon ms-2" style="width:40px;">
+            </div>
+            <div class="row justify-content-center">
+                <!-- Project Card 1 -->
+                <div class="card col-md-4 col-lg-3 m-3">
+                    <a href="http://zuitt-bootcamp-prod-495-8253-barreda.s3-website.us-east-1.amazonaws.com/" target="_blank" rel="noopener noreferrer">
+                        <img src="./images/smartbuy-hub.png" class="card-img-top" alt="SmartBuy Hub">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">E-Commerce App</h5>
+                        <p class="card-text">
+                            Developed an e-commerce application using the MERN stack (MongoDB, Express, React, Node.js) in collaboration with a partner. Implemented features such as user authentication, product management, order processing, and an admin dashboard. This project enhanced my full-stack development skills and understanding of scalable, user-friendly platforms.
+                        </p>
+                        <p class="card-text"><small class="text-muted">Last updated 2 days ago</small></p>
+                    </div>
+                </div>
+                
+                <!-- Project Card 2 -->
+                <div class="card col-md-4 col-lg-3 m-3">
+                    <a href="https://www.figma.com/design/1Cg2BWMWgcxerJBZcZegRA/MCP---G1---Mock-Up?node-id=0-1&t=wWB7SmyVnUcCQfju-1" target="_blank" rel="noopener noreferrer">
+                        <img src="./images/mcp-g1-figma.png" class="card-img-top" alt="Figma Mockup">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Figma Mockup</h5>
+                        <p class="card-text">
+                            Collaborated with a team of three to design a Figma mockup for an airline's online booking system. Utilized Trello for task management, ensuring efficient project progression. The mockup featured key functionalities like flight search, booking, and payment integration, providing a comprehensive UI/UX blueprint for the final product.
+                        </p>
+                        <p class="card-text"><small class="text-muted">Last updated 2 days ago</small></p>
+                    </div>
+                </div>
+                
+                <!-- Project Card 3 -->
+                <div class="card col-md-4 col-lg-3 m-3">
+                    <a href="https://johnbbarreda.github.io/educ-resource-hub/" target="_blank" rel="noopener noreferrer">
+                        <img src="./images/educ-resource-.png" class="card-img-top" alt="Educational Resource Hub">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Educational Resource Hub</h5>
+                        <p class="card-text">
+                            Developed an online cooking course platform offering interactive lessons and tutorials for all skill levels. Features include video-based courses, step-by-step recipes, and cooking tips, ensuring an engaging and user-friendly learning experience.
+                        </p>
+                        <div class="text-center my-3">
+                            <a href="https://github.com/johnbbarreda/educ-resource-hub" target="_blank" rel="noopener noreferrer" class="btn btn-primary">View GitHub Repository</a>
+                        </div>
+                        <p class="card-text"><small class="text-muted">Last updated 2 days ago</small></p>
+                    </div>
                 </div>
             </div>
-            <!-- End of Landing -->
-
-            <!-- Projects -->
-            <div id="projects" class="row mt-3 card-deck pt-4 justify-content-center">
-            	<div class="d-flex align-items-center justify-content-center">
-            		<h1 class="text-center mt-3 mb-3">My Projects</h1>
-            		<img src="./images/anvil.png" class="navbar-toggler-icon ms-2 mb-1">
-            	</div>
-            	<!-- Card 1 / -->
-             	<div class="card col-md-4 col-lg-3 m-3">
-					<a href="http://zuitt-bootcamp-prod-495-8253-barreda.s3-website.us-east-1.amazonaws.com/">
-						<img src="./images/smartbuy-hub.png" class="card-img-top" alt="...">
-					</a>
-                	<div class="card-body">
-                  		<h5 class="card-title">E Commerce</h5>
-                  		<p class="card-text">
-							I built an e-commerce app using the MERN stack (MongoDB, Express, React, Node.js) with a partner. The app includes essential features like user login, registration, logout, and an admin dashboard for managing products, orders, and customer data. This project strengthened my skills in full-stack development and enabled me to create a scalable and user-friendly platform.
-                  		</p>
-                  		<p class="card-text"><small class="text-muted">Last updated 2 days ago</small></p>
-                	</div>
-              	</div>
-
-              	<!-- Card 2 / -->
-              	<div class="card col-md-4 col-lg-3 m-3">
-					<a href="https://www.figma.com/design/1Cg2BWMWgcxerJBZcZegRA/MCP---G1---Mock-Up?node-id=0-1&t=wWB7SmyVnUcCQfju-1">
-						<img src="./images/mcp-g1-figma.png" class="card-img-top" alt="...">
-					</a>
-                	<div class="card-body">
-                  		<h5 class="card-title">Figma Mockup</h5>
-							<p class="card-text">
-								I collaborated with three teammates to design a Figma mock-up for an airlines online booking system website. We used Trello to manage tasks and ensure smooth project progress. The mock-up included key features like flight search, booking, and payment integration, providing a clear visual representation of the user interface and user experience for the final product. This project enhanced my collaboration and design skills, along with my ability to manage tasks effectively in a team setting.
-							</p>
-                  		<p class="card-text"><small class="text-muted">Last updated 2 days ago</small></p>
-                	</div>
-              	</div>
-
-              	<!-- Card 3 / -->
-              	<div class="card col-md-4 col-lg-3 m-3">
-					<a href="https://johnbbarreda.github.io/educ-resource-hub/">
-						<img src="./images/educ-resource-.png" class="card-img-top" alt="...">
-					</a>
-                	<div class="card-body">
-                  		<h5 class="card-title">Educational Resource Hub</h5>
-                  		    <p class="card-text">
-							I worked on a project for an online cooking course website, designed to offer interactive lessons and cooking tutorials for learners of all levels. The platform features a variety of video-based courses, step-by-step recipe guides, and cooking tips, aimed at helping users improve their culinary skills. The project focused on creating an engaging and user-friendly experience, with easy navigation and access to high-quality content, making learning to cook accessible and enjoyable for everyone.
-                  		    </p>
-                  		<div class="my-3 text-center">
-                    		<a href="https://github.com/johnbbarreda/educ-resource-hub" target="_blank" class="btn btn-primary">Git Repository</a>
-                  		</div>
-                  		<p class="card-text"><small class="text-muted">Last updated 2 days ago</small></p>
-                	</div>
-              </div>
-            </div>
-            <!-- End of Projects -->
-
-          	<!-- Travel Videos Section -->
-			<section class="travel-videos py-5">
-				<div class="container text-center">
-					<h2 class="section-title">Travel Videos</h2>
-					<p class="section-description">Explore my travel experiences through these curated videos from my trips to Singapore, Malaysia, and Thailand. Each video showcases different aspects of my travels, including culture, food, and sightseeing.</p>
-					
-					<div class="row justify-content-center">
-						<div class="col-12 col-md-4 video-item mb-4">
-							<h3 class="video-title">Singapore</h3>
-							<div class="video-wrapper" onclick="requestFullscreen(this)">
-								<iframe src="https://drive.google.com/file/d/1wg9GPY5gAXRy9Ijhn9xcYOxJ5c4sBcIY/preview" width="100%" height="100%" allow="autoplay" allowfullscreen></iframe>
-							</div>
-						</div>
-						<div class="col-12 col-md-4 video-item mb-4">
-							<h3 class="video-title">Malaysia</h3>
-							<div class="video-wrapper" onclick="requestFullscreen(this)">
-								<iframe src="https://drive.google.com/file/d/1we0S49UEF3dDuw4JlkVLdpEmMotCLrfU/preview" width="100%" height="100%" allow="autoplay" allowfullscreen></iframe>
-							</div>
-						</div>
-						<div class="col-12 col-md-4 video-item mb-4">
-							<h3 class="video-title">Thailand</h3>
-							<div class="video-wrapper" onclick="requestFullscreen(this)">
-								<iframe src="https://drive.google.com/file/d/1BJsq53TIwVJgI6MEER7CwqeIbRYAqmn0/preview" width="100%" height="100%" allow="autoplay" allowfullscreen></iframe>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!-- End of Travel Videos Section -->
-
-
-
-            <!-- Tools -->
-            <div id="tools" class="row flex-column my-5 pt-5">
-            	<div class="d-flex align-items-center justify-content-center">
-                	<h1 class="text-center">Tools</h1>
-                	<img src="./images/axe.png" class="navbar-toggler-icon ms-2 mb-2">
-            	</div>
+        </section>
+        <!-- End of Projects -->
+        
+        <!-- Travel Videos Section -->
+        <section class="travel-videos py-5">
+            <div class="container text-center">
+                <h2 class="section-title">Travel Videos</h2>
+                <p class="section-description">
+                    Explore my travel experiences through these curated videos from my trips to Singapore, Malaysia, and Thailand. Each video showcases different aspects of my travels, including culture, food, and sightseeing.
+                </p>
+                
                 <div class="row justify-content-center">
-                	<!-- frontend / -->
-                    <div id="fontend" class="mx-4 col-md-4 col-lg-3 justify-content-center pb-5">
-                        <h3 class="text-center">Front End</h3>
-                        <div class="row gy-5">
-                            <div class="col-3 col-md-6">                             
-                            	<img src="./images/html5.png" class="img-fluid mx-auto d-block">
-                            </div>
-                            <div class="col-3 col-md-6">
-                            	<img src="./images/css3.png" class="img-fluid mx-auto d-block">
-                            </div>
-                            <div class="col-3 col-md-6">
-                            	<img src="./images/bootstrap5.png" class="img-fluid mx-auto d-block">
-                            </div>
-                            <div class="col-3 col-md-6">
-                            	<img src="./images/javascript.png" class="img-fluid mx-auto d-block">
-                            </div>
+                    <div class="col-12 col-md-4 video-item mb-4">
+                        <h3 class="video-title">Singapore</h3>
+                        <div class="video-wrapper" onclick="requestFullscreen(this)">
+                            <iframe src="https://drive.google.com/file/d/1wg9GPY5gAXRy9Ijhn9xcYOxJ5c4sBcIY/preview" 
+                                    title="Singapore Travel Video" 
+                                    allow="autoplay; fullscreen" 
+                                    allowfullscreen></iframe>
                         </div>
                     </div>
-
-                    <!-- mern / -->
-                    <div id="mern" class="mx-4 col-md-4 col-lg-3 justify-content-center pb-5">
-                        <h3 class="text-center">MERN</h3>
-                        <div class="row gy-5">                   	
-                            <div class="col-3 col-md-6">
-                            	<img src="./images/mongodb.png" class="img-fluid mx-auto d-block">
-                            </div>
-                            <div class="col-3 col-md-6">
-                            	<img src="./images/ejs.png" class="img-fluid mx-auto d-block">
-                            </div>
-                            <div class="col-3 col-md-6">
-                            	<img src="./images/reactjs.png" class="img-fluid mx-auto d-block">
-                            </div>
-                            <div class="col-3 col-md-6">
-                            	<!-- <a href="https://nodejs.org/en" target="_blank"> -->
-                            	<img src="./images/nodejs.png" class="img-fluid mx-auto d-block">
-                            </div>
+                    <div class="col-12 col-md-4 video-item mb-4">
+                        <h3 class="video-title">Malaysia</h3>
+                        <div class="video-wrapper" onclick="requestFullscreen(this)">
+                            <iframe src="https://drive.google.com/file/d/1we0S49UEF3dDuw4JlkVLdpEmMotCLrfU/preview" 
+                                    title="Malaysia Travel Video" 
+                                    allow="autoplay; fullscreen" 
+                                    allowfullscreen></iframe>
                         </div>
                     </div>
-
-                    <!-- other-tools / -->
-                    <div id="other-tools" class="mx-4 col-md-4 col-lg-3 justify-content-center pb-5">
-                        <h3 class="text-center">Other Tools</h3>
-                        <div class="row gy-5">
-                            <div class="col-3 col-md-6">
-                            	<img src="./images/heroku.png" class="img-fluid mx-auto d-block">
-                            </div>
-                            <div class="col-3 col-md-6">
-                            	<img src="./images/git.png" class="img-fluid mx-auto d-block">
-                            </div>
-                            <div class="col-3 col-md-6">
-                            	<img src="./images/postman.png" class="img-fluid mx-auto d-block">
-                            </div>
-                            <div class="col-3 col-md-6">
-                            	<img src="./images/sublime-text.png" class="img-fluid mx-auto d-block">
-                            </div>
+                    <div class="col-12 col-md-4 video-item mb-4">
+                        <h3 class="video-title">Thailand</h3>
+                        <div class="video-wrapper" onclick="requestFullscreen(this)">
+                            <iframe src="https://drive.google.com/file/d/1BJsq53TIwVJgI6MEER7CwqeIbRYAqmn0/preview" 
+                                    title="Thailand Travel Video" 
+                                    allow="autoplay; fullscreen" 
+                                    allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- End of Tools -->
-
-            <!-- Contact -->
-            <div id="contact" class="row d-flex justify-content-center pt-5">
-            	<div class="d-flex align-items-center justify-content-center">
-            		<h1 class="text-center mb-3">Contact</h1>
-            		<img src="./images/horn.png" class="navbar-toggler-icon ms-2 mb-3">
-            	</div>
-                <div class="col-3 col-md-1 d-flex justify-content-center">
-                    <a href="http://www.facebook.com/" target="_blank">
-                        <img src="./images/facebook.png" id="socmed">
-                    </a>
-                </div>
-                <div class="col-3 col-md-1 d-flex justify-content-center">
-                    <a href="http://www.linkedin.com/" target="_blank">
-                        <img src="./images/linkedin.png" id="socmed">
-                    </a>
-                </div>
-                <div class="col-3 col-md-1 d-flex justify-content-center">
-                    <a href="http://www.gitlab.com/" target="_blank">
-                        <img src="./images/gitlab.png" id="socmed">
-                    </a>
-                </div>
-                <div class="col-3 col-md-1 d-flex justify-content-center">
-                    <a href="http://www.github.com/" target="_blank">
-                        <img src="./images/github.png" id="socmed">
-                    </a>
-                </div>
+        </section>
+        <!-- End of Travel Videos Section -->
+        
+        <!-- Tools Section -->
+        <section id="tools" class="py-5">
+            <div class="d-flex align-items-center justify-content-center mb-4">
+                <h1 class="text-center">Tools</h1>
+                <img src="./images/axe.png" alt="Axe Icon" class="navbar-icon ms-2" style="width:40px;">
             </div>
-            <!-- End of Contact -->
-
-            <!-- More Contact -->
-            <div id="more-contact" class="row">
-                <div id="gmap-canvas" class="col-md-6 my-4">
-                	<div class="d-flex align-items-center justify-content-center">
-                    	<h4 class="text-center my-4">Visit Us</h4>
-                    	<img src="./images/map.png" class="navbar-toggler-icon ms-2 mb-1">
+            <div class="row justify-content-center">
+                <!-- Front End Tools -->
+                <div class="mx-4 col-md-4 col-lg-3 pb-5">
+                    <h3 class="text-center">Front End</h3>
+                    <div class="row gy-4">
+                        <div class="col-6">
+                            <img src="./images/html5.png" alt="HTML5" class="img-fluid mx-auto d-block">
+                        </div>
+                        <div class="col-6">
+                            <img src="./images/css3.png" alt="CSS3" class="img-fluid mx-auto d-block">
+                        </div>
+                        <div class="col-6">
+                            <img src="./images/bootstrap5.png" alt="Bootstrap 5" class="img-fluid mx-auto d-block">
+                        </div>
+                        <div class="col-6">
+                            <img src="./images/javascript.png" alt="JavaScript" class="img-fluid mx-auto d-block">
+                        </div>
                     </div>
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123504.11642625772!2d120.9797871347596!3d14.684087285609998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ba0942ef7375%3A0x4a9a32d9fe083d40!2sQuezon%20City%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1736077000363!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                <div class="col-md-6 my-4">
-                	<div class="d-flex align-items-center justify-content-center">
-                    	<h4 class="text-center my-4">Message Us</h4>
-                    	<img src="./images/scroll.png" class="navbar-toggler-icon ms-2 mb-1">
-                	</div>
-                    <form>
-                        <div class="form-group">
-                            <label>Full Name</label>
-                            <input type="text" class="form-control" placeholder="John Doe">
+                
+                <!-- MERN Stack Tools -->
+                <div class="mx-4 col-md-4 col-lg-3 pb-5">
+                    <h3 class="text-center">MERN Stack</h3>
+                    <div class="row gy-4">
+                        <div class="col-6">
+                            <img src="./images/mongodb.png" alt="MongoDB" class="img-fluid mx-auto d-block">
                         </div>
-                        <div class="form-group">
-                            <label>Email Address</label>
-                            <input type="email" class="form-control" placeholder="johndoe@email.com">
+                        <div class="col-6">
+                            <img src="./images/ejs.png" alt="EJS" class="img-fluid mx-auto d-block">
                         </div>
-                        <div class="form-group">
-                            <label>Message</label>
-                            <textarea class="form-control" placeholder="Your message here"></textarea>
+                        <div class="col-6">
+                            <img src="./images/reactjs.png" alt="React.js" class="img-fluid mx-auto d-block">
                         </div>
-                        <div class="text-center mt-3">
-                        	<button type="button" class="btn btn-outline-dark">Send</button>
+                        <div class="col-6">
+                            <img src="./images/nodejs.png" alt="Node.js" class="img-fluid mx-auto d-block">
                         </div>
-                    </form>
+                    </div>
+                </div>
+                
+                <!-- Other Tools -->
+                <div class="mx-4 col-md-4 col-lg-3 pb-5">
+                    <h3 class="text-center">Other Tools</h3>
+                    <div class="row gy-4">
+                        <div class="col-6">
+                            <img src="./images/heroku.png" alt="Heroku" class="img-fluid mx-auto d-block">
+                        </div>
+                        <div class="col-6">
+                            <img src="./images/git.png" alt="Git" class="img-fluid mx-auto d-block">
+                        </div>
+                        <div class="col-6">
+                            <img src="./images/postman.png" alt="Postman" class="img-fluid mx-auto d-block">
+                        </div>
+                        <div class="col-6">
+                            <img src="./images/sublime-text.png" alt="Sublime Text" class="img-fluid mx-auto d-block">
+                        </div>
+                    </div>
                 </div>
             </div>
-            <!-- End of More Contact -->
-            
+        </section>
+        <!-- End of Tools -->
+        
+        <!-- Contact Section -->
+        <section id="contact" class="py-5">
+            <div class="d-flex align-items-center justify-content-center mb-4">
+                <h1 class="text-center">Contact</h1>
+                <img src="./images/horn.png" alt="Horn Icon" class="navbar-icon ms-2" style="width:40px;">
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-6 col-md-3 d-flex justify-content-center mb-3">
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                        <img src="./images/facebook.png" alt="Facebook" class="socmed-icon">
+                    </a>
+                </div>
+                <div class="col-6 col-md-3 d-flex justify-content-center mb-3">
+                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                        <img src="./images/linkedin.png" alt="LinkedIn" class="socmed-icon">
+                    </a>
+                </div>
+                <div class="col-6 col-md-3 d-flex justify-content-center mb-3">
+                    <a href="https://www.gitlab.com/" target="_blank" rel="noopener noreferrer">
+                        <img src="./images/gitlab.png" alt="GitLab" class="socmed-icon">
+                    </a>
+                </div>
+                <div class="col-6 col-md-3 d-flex justify-content-center mb-3">
+                    <a href="https://www.github.com/" target="_blank" rel="noopener noreferrer">
+                        <img src="./images/github.png" alt="GitHub" class="socmed-icon">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- End of Contact -->
+        
+        <!-- More Contact Section -->
+        <section class="py-5 bg-light">
+            <div class="container">
+                <div class="row">
+                    <!-- Google Map -->
+                    <div id="gmap-canvas" class="col-md-6 my-4">
+                        <div class="d-flex align-items-center justify-content-center mb-3">
+                            <h4 class="text-center">Visit Us</h4>
+                            <img src="./images/map.png" alt="Map Icon" class="navbar-icon ms-2" style="width:30px;">
+                        </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123504.11642625772!2d120.9797871347596!3d14.684087285609998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ba0942ef7375%3A0x4a9a32d9fe083d40!2sQuezon%20City%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1736077000363!5m2!1sen!2sph" 
+                                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade" title="Google Map of Quezon City"></iframe>
+                    </div>
+                    <!-- Contact Form -->
+                    <div class="col-md-6 my-4">
+                        <div class="d-flex align-items-center justify-content-center mb-3">
+                            <h4 class="text-center">Message Us</h4>
+                            <img src="./images/scroll.png" alt="Scroll Icon" class="navbar-icon ms-2" style="width:30px;">
+                        </div>
+                        <form>
+                            <div class="mb-3">
+                                <label for="fullName" class="form-label">Full Name</label>
+                                <input type="text" class="form-control" id="fullName" placeholder="John Doe" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="emailAddress" class="form-label">Email Address</label>
+                                <input type="email" class="form-control" id="emailAddress" placeholder="johndoe@example.com" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="messageText" class="form-label">Message</label>
+                                <textarea class="form-control" id="messageText" rows="5" placeholder="Your message here" required></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-dark">Send</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of More Contact -->
+    </div>
+    <!-- End of Main Content -->
+    
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-3">
+        <div class="d-flex align-items-center justify-content-center mb-2">
+            <img src="./images/rune2.png" alt="Rune Icon" class="footer-icon me-2" style="width:30px;">
+            <h4 class="mb-0">John Rendel Barreda</h4>
+            <img src="./images/rune2.png" alt="Rune Icon" class="footer-icon ms-2" style="width:30px;">
         </div>
-		<!-- End of Content -->
-
-		
-		
-
-		<!-- Footer -->
-		<footer class="mt-3 bg-dark text-light py-3">
-			<div class="d-flex align-items-center justify-content-center">
-				<img id="footer-icon-left" src="./images/rune2.png" class="navbar-toggler-icon me-2 mb-3">
-            	<h4 class="text-center mb-3">John Rendel Barreda</h6>
-            	<img id="footer-icon-right" src="./images/rune2.png" class="navbar-toggler-icon ms-2 mb-3">
-            </div>
-            <p class="text-center">Full Stack Web Developer</p>
-        </footer>
-		<!-- End of Footer -->
-
-	<!-- Javascript -->
-	<script src="index.js"></script>
-
-	<!-- Bootstrap Bundle JS / -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-	</body>
+        <p class="text-center mb-0">Full Stack Web Developer</p>
+    </footer>
+    <!-- End of Footer -->
+    
+    <!-- JavaScript -->
+    <script src="index.js"></script>
+    
+    <!-- Bootstrap Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+</body>
 </html>

@@ -1,30 +1,32 @@
-.card-title {
-	text-align: center;
-}
-
+/* Global Styles */
 html {
-	scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 * {
-	font-family: "Noto Sans Runic", sans-serif;
+    font-family: "Noto Sans Runic", sans-serif;
 }
 
-h1,h2,h3,h4, .nav-link,.card-title {
-	font-family: "Skranji", sans-serif;
+h1, h2, h3, h4, .nav-link, .card-title {
+    font-family: "Skranji", sans-serif;
 }
 
 .navbar-brand {
-	font-family: "Skranji", sans-serif;
-	font-weight: 600;
+    font-family: "Skranji", sans-serif;
+    font-weight: 600;
 }
 
 .nav-item {
-	font-weight: 600;
+    font-weight: 600;
+}
+
+img.navbar-icon, img.footer-icon {
+    width: 30px;
+    height: auto;
 }
 
 #viking-ship-flip {
-	transform: scaleX(-1)
+    transform: scaleX(-1);
 }
 
 #img-background {
@@ -39,21 +41,20 @@ h1,h2,h3,h4, .nav-link,.card-title {
 }
 
 #footer-icon-right {
-/*	filter: invert(100%);*/
-	transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 
 #tools {
-	background-color: rgba(0, 99, 0, 0.1);
+    background-color: rgba(0, 99, 0, 0.1);
 }
 
 .navbar {
-	background-color: black;
-	text-shadow: 1px 1px white;
+    background-color: #212529; /* Changed to match Bootstrap's dark navbar */
+    text-shadow: 1px 1px white;
 }
 
 #landing {
-	background-color: rgba(25, 25, 25, 0.7);
+    background-color: rgba(25, 25, 25, 0.7);
 }
 
 #poem {
@@ -63,18 +64,23 @@ h1,h2,h3,h4, .nav-link,.card-title {
 }
 
 #tools img {
-	max-height: 100px;
-	max-width: auto;
+    max-height: 80px;
+    width: auto;
 }
 
-#contact #socmed {
-	filter: grayscale(100%);
-	max-height: 30px;
-	max-width: auto;
+.socmed-icon {
+    filter: grayscale(100%);
+    max-height: 40px;
+    width: auto;
+    transition: filter 0.3s;
+}
+
+.socmed-icon:hover {
+    filter: grayscale(0%);
 }
 
 #mypic {
-    max-width: 400px;
+    max-width: 300px;
     width: 100%;
     height: auto; 
     display: block; 
@@ -82,74 +88,80 @@ h1,h2,h3,h4, .nav-link,.card-title {
     margin-right: auto; 
 }
 
+/* Travel Videos Section */
 .travel-videos {
-	padding: 40px;
-	background-color: #f7f7f7;
-	text-align: center;
+    padding: 40px;
+    background-color: #f7f7f7;
+    text-align: center;
 }
+
 .section-title {
-	font-size: 2.5em;
-	font-weight: bold;
-	color: #333;
-	margin-bottom: 20px;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
 }
+
 .section-description {
-	font-size: 1.2em;
-	color: #666;
-	margin-bottom: 40px;
-	max-width: 800px;
-	margin-left: auto;
-	margin-right: auto;
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 40px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
-.video-container {
-	display: flex;
-	justify-content: center;
-	gap: 20px;
-	flex-wrap: wrap;
-}
+
 .video-item {
-	max-width: 650px;
-	width: 100%;
-	text-align: center;
-	transition: transform 0.3s ease-in-out;
+    max-width: 650px;
+    width: 100%;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
 }
+
 .video-item:hover {
-	transform: scale(1.05);
+    transform: scale(1.05);
 }
+
 .video-title {
-	font-size: 1.5em;
-	color: #333;
-	margin-bottom: 15px;
-	font-weight: 600;
-}
-iframe {
-	border: none;
-	border-radius: 10px;
-	max-width: 100%;
-	height: auto;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: 600;
 }
 
 .video-wrapper {
-	position: relative;
-	padding-top: 56.25%; /* Aspect ratio 16:9 */
-	height: 0;
-	overflow: hidden;
-	max-width: 100%;
-	background-color: #000;
-	cursor: pointer; /* Shows a hand cursor to indicate the video is clickable */
+    position: relative;
+    padding-top: 56.25%; /* Aspect ratio 16:9 */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background-color: #000;
+    cursor: pointer; /* Indicates clickable video */
 }
 
 .video-wrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
 }
 
-/* Aspect ratio for smaller screens (9:16) */
+/* Responsive Aspect Ratio for Smaller Screens */
 @media (max-width: 767px) {
-	.video-wrapper {
-		padding-top: 177.77%; /* Aspect ratio 9:16 */
-	}
+    .video-wrapper {
+        padding-top: 177.77%; /* Aspect ratio 9:16 */
+    }
+}
+
+/* Additional Styling */
+.btn-outline-dark:hover {
+    background-color: #343a40;
+    color: #fff;
+    border-color: #343a40;
+}
+
+footer h4 {
+    margin: 0 10px;
 }
